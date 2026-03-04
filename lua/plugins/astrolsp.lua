@@ -47,6 +47,9 @@ return {
         cmd = { "/usr/bin/clangd" },
         capabilities = { offsetEncoding = "utf-8", backgroundIndex = true, clangTidy = true },
       },
+      neocmake = {
+        cmd = { "neocmakelsp", "stdio" },
+      },
     },
     -- customize how language servers are attached
     handlers = {
