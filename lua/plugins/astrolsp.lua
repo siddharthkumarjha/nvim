@@ -49,6 +49,7 @@ return {
       },
       neocmake = {
         cmd = { "neocmakelsp", "stdio" },
+        filetypes = { "cmake" },
       },
     },
     -- customize how language servers are attached
